@@ -1,7 +1,9 @@
+import ResumeForm from '@/components/ResumeForm';
+
 export default function Home() {
   return (
     <main>
-      <div>hello</div>
+      <ResumeForm />
     </main>
   );
 }
