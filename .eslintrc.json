@@ -1,0 +1,12 @@
+{
+  "extends": ["next", "next/core-web-vitals", "airbnb", "airbnb-typescript"],
+  "globals": {
+    "React": "readonly"
+  },
+  "rules": {
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
